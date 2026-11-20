@@ -23,7 +23,7 @@ PORT = int(os.environ.get("PORT", 10000))
 
 # Render/Heroku-তে environment variable দিয়ে দিন।
 # Local test-এর জন্য ডিফল্ট fallback আছে (কিন্তু production-এ env var ব্যবহার করুন)।
-UID        = os.environ.get("GUEST_UID", "")
+UID        = os.environ.get("GUEST_UID", "8468802856")
 PW         = os.environ.get(
     "GUEST_PW",
     "498C2806F1F0CDDC541DBD2F469196276FBEFE4FD8F71EEDF6BF59655E2F6337",
